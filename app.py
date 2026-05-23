@@ -36,3 +36,4 @@ if st.session_state.empaque:
         for codigo, cant in st.session_state.empaque.items():
             st.warning(f"Material: **{codigo}** ➡️ Faltan: **{cant}** piezas")
         st.success("Caja inicializada y blindada.")
+        
